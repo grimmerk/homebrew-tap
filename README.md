@@ -14,6 +14,9 @@ usual `label (url)` display, so nothing is lost. Upstream PR:
 It installs as `presenterm-osc8` so it coexists with an official `presenterm`
 install.
 
+**Source:** [grimmerk/presenterm](https://github.com/grimmerk/presenterm) ·
+[Releases](https://github.com/grimmerk/presenterm/releases)
+
 ### Install
 
 **Option A — one-line install via curl (works on any Mac)**
