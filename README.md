@@ -43,6 +43,10 @@ brew install grimmerk/tap/presenterm-osc8
 cargo install --git https://github.com/grimmerk/presenterm --branch feat/osc8-hyperlinks
 ```
 
+> ⚠️ cargo installs the binary as `presenterm` (not `presenterm-osc8`), so it
+> will overwrite a cargo-installed official `presenterm`, or shadow a Homebrew
+> one depending on your `PATH`. Use Option A or B if you want them side by side.
+
 ### Usage
 
 ```bash
