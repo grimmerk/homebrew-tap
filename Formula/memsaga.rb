@@ -1,25 +1,25 @@
 class Memsaga < Formula
   desc "Version control and two-way sync for Claude Code's memory, skills, hooks and config, plus other files you choose, in a git repository you own."
   homepage "https://memsaga.grimmer.io"
-  version "0.1.3"
+  version "0.1.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/grimmerk/memsaga/releases/download/v0.1.3/memsaga-aarch64-apple-darwin.tar.xz"
-      sha256 "a91eb829584c3d1057a6996463344297fceb7f5beadb5dc8be83293280ad0697"
+      url "https://github.com/grimmerk/memsaga/releases/download/v0.1.4/memsaga-aarch64-apple-darwin.tar.xz"
+      sha256 "326bb02dd7594acbaf1176429c22092fd26ac6fb7e004bb4cda8724cc62b9eae"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/grimmerk/memsaga/releases/download/v0.1.3/memsaga-x86_64-apple-darwin.tar.xz"
-      sha256 "c87ac33b7cee85d6e5099aaba6c3f266a14f35ee15e942b0286e80bda541a9b6"
+      url "https://github.com/grimmerk/memsaga/releases/download/v0.1.4/memsaga-x86_64-apple-darwin.tar.xz"
+      sha256 "0a51b7e7f4f24756a718a23e30bd39243266fee10958193cb199cd36adeabb52"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/grimmerk/memsaga/releases/download/v0.1.3/memsaga-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "cfe93c0070ad45e62f1bd82b428b3dd0829bc04d1426f81d312a674c97626588"
+      url "https://github.com/grimmerk/memsaga/releases/download/v0.1.4/memsaga-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "01f23c899b40fd7f734e5d38166dddd576dd3d51af58811dea956b55f49f66cf"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/grimmerk/memsaga/releases/download/v0.1.3/memsaga-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "555c680c25f695bbb8a23e03d01440d0094e665429896e6489e107d930e5965e"
+      url "https://github.com/grimmerk/memsaga/releases/download/v0.1.4/memsaga-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "c7ce076217dfe55656369a346db7e1ebe94677b3bf4cc45341975ad866a4791b"
     end
   end
   license "MIT"
