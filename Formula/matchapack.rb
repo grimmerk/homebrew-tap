@@ -1,25 +1,25 @@
 class Matchapack < Formula
   desc "Makes npm ci, npm install and Yarn 1 place node_modules as copy-on-write clones, so each extra checkout or git worktree costs almost no disk"
   homepage "https://github.com/grimmerk/matchapack"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/grimmerk/matchapack/releases/download/v0.1.1/matchapack-aarch64-apple-darwin.tar.xz"
-      sha256 "823867932bcae2a167531cf521ab52a91737fb5b5f8edcf8999f15eb152d5899"
+      url "https://github.com/grimmerk/matchapack/releases/download/v0.1.2/matchapack-aarch64-apple-darwin.tar.xz"
+      sha256 "3cd62359b3fcb96be713ab46ebfd9126c006576826bc48a9939397251ce902c0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/grimmerk/matchapack/releases/download/v0.1.1/matchapack-x86_64-apple-darwin.tar.xz"
-      sha256 "1fe7b6f64be0f2bbf35c7aa8c573e74bdbca6b781550c13bfbb2d1cd7c91d78a"
+      url "https://github.com/grimmerk/matchapack/releases/download/v0.1.2/matchapack-x86_64-apple-darwin.tar.xz"
+      sha256 "42409a37fe6dd4ce4b158fe0c689d9df73e2b0783f9a8e3da7e5e75c5c444e12"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/grimmerk/matchapack/releases/download/v0.1.1/matchapack-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "3ee36a4d196292a3d448fc4d0148c3d56249015f548e1ddcf870e3f3c6e76028"
+      url "https://github.com/grimmerk/matchapack/releases/download/v0.1.2/matchapack-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "e0725646f442971b12b9a69a78f9e8b0cc9613333a6b1491ef90eb1fe90d71fc"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/grimmerk/matchapack/releases/download/v0.1.1/matchapack-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "b7e6841aaddd9c34e909e4d7b4f01fc667e5c3d554d6fd51f716bdca917e730e"
+      url "https://github.com/grimmerk/matchapack/releases/download/v0.1.2/matchapack-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "1fd09a37de91bdce1ad5b15ab56e738923de3d178ce9016a82a1ec64b53bb15f"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
